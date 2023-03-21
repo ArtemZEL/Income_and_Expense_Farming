@@ -430,7 +430,7 @@ namespace Curs_BD
 
         private void Information_MouseEnter(object sender, EventArgs e)
         {
-            Hide.ForeColor = Color.Aqua;
+            Information.ForeColor = Color.Aqua;
         }
         private bool dragging = false;
         private Point startPoint = new Point(0, 0);
