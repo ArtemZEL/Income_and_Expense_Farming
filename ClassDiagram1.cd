@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Curs_BD.Category">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAICgCsBABIACCAAGCgCHCEAEgAQgBRBEQAAE=</HashCode>
+      <FileName>Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.Dashboard">
+    <Position X="3" Y="0.75" Width="6.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>9QiQEhEAACgCiBACkDOyA4GCZ0ACAoIAKqAQYAEESB0=</HashCode>
+      <FileName>Dashboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.Expence">
+    <Position X="10" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>kACCIAAIgCgCMRAAABCCAYECQEACAAAgIUAAQAFACCE=</HashCode>
+      <FileName>Expence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.Income">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>kAIYQIAAACgikBQAEACSAwGCQEBCQAQgIYiAwAHACCE=</HashCode>
+      <FileName>Income.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.Login">
+    <Position X="9.75" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABBCIAAACAEABAIAAGAAQCCIAAAAACAAAAAAgAAAQA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.Registration">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ABAQAAQAQCAAgRQAEACAAQACAgBAEgAAAIgQQQDAAAA=</HashCode>
+      <FileName>Registration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.ViewExpense">
+    <Position X="3" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACgCsBAAAACABQGCQEFSAAAAIAgAUBEECAE=</HashCode>
+      <FileName>ViewExpense.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Curs_BD.ViewIncomes">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAQGgC8BAAAACAAQCCwEEGAAAAMAAAYAUECAE=</HashCode>
+      <FileName>ViewIncomes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
