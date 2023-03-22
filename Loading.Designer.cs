@@ -33,8 +33,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
-            this.label2 = new System.Windows.Forms.Label();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,17 +70,6 @@
             this.bunifuPanel1.Size = new System.Drawing.Size(516, 20);
             this.bunifuPanel1.TabIndex = 7;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.Cyan;
-            this.label2.Location = new System.Drawing.Point(116, 180);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 58);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Загрузка....";
-            // 
             // bunifuPanel2
             // 
             this.bunifuPanel2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -95,6 +84,17 @@
             this.bunifuPanel2.Size = new System.Drawing.Size(15, 20);
             this.bunifuPanel2.TabIndex = 8;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Cyan;
+            this.label2.Location = new System.Drawing.Point(116, 180);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(270, 57);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Загрузка....";
+            // 
             // Loading
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -106,6 +106,7 @@
             this.Controls.Add(this.label2);
             this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Loading";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loading";

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registration));
             this.panel1 = new System.Windows.Forms.Panel();
             this.UserDate = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.UserPass = new Guna.UI2.WinForms.Guna2TextBox();
@@ -299,6 +300,7 @@
             this.ClientSize = new System.Drawing.Size(723, 736);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration";
